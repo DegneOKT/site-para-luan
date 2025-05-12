@@ -13,7 +13,7 @@ export default function Direitos() {
           <div className="flex gap-2 items-center text-primary">
             <GraduationCap className="h-6 w-6" />
             <Link href="/" className="font-bold text-lg">
-              Programa Menor Aprendiz
+              Star Jovem
             </Link>
           </div>
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -23,14 +23,8 @@ export default function Direitos() {
             <Link href="/direitos" className="transition-colors hover:text-foreground/80 text-primary font-bold">
               Direitos e Deveres
             </Link>
-            <Link href="/como-participar" className="transition-colors hover:text-foreground/80">
-              Como Participar
-            </Link>
             <Link href="/entrevista" className="transition-colors hover:text-foreground/80">
               Entrevista
-            </Link>
-            <Link href="/#faq" className="transition-colors hover:text-foreground/80">
-              Perguntas Frequentes
             </Link>
             <Link href="/#contato" className="transition-colors hover:text-foreground/80">
               Contato
@@ -48,10 +42,10 @@ export default function Direitos() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Direitos e Deveres do Menor Aprendiz
+                  Direitos e Deveres do Jovem Aprendiz
                 </h1>
                 <p className="text-muted-foreground md:text-xl">
-                  Conheça em detalhes todos os direitos e deveres garantidos pela legislação do programa Menor Aprendiz.
+                  Conheça os principais direitos e deveres garantidos pela legislação do programa.
                 </p>
               </div>
               <div className="mx-auto w-full max-w-[500px]">
@@ -74,11 +68,10 @@ export default function Direitos() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold flex items-center gap-2">
                   <ShieldCheck className="h-6 w-6 text-primary" />
-                  Direitos do Menor Aprendiz
+                  Direitos do Jovem Aprendiz
                 </h2>
                 <p className="text-muted-foreground">
-                  A Lei de Aprendizagem (Lei 10.097/2000) e o Decreto 5.598/2005 garantem diversos direitos aos jovens
-                  aprendizes. Conheça os principais:
+                  A Lei de Aprendizagem garante diversos direitos aos jovens aprendizes. Conheça os principais:
                 </p>
 
                 <Accordion type="single" collapsible className="w-full">
@@ -93,10 +86,6 @@ export default function Direitos() {
                         <p>
                           Algumas empresas podem oferecer valores acima do mínimo estabelecido por lei, bem como
                           benefícios adicionais.
-                        </p>
-                        <p>
-                          O pagamento deve ser feito mensalmente e registrado em contracheque detalhado, com todos os
-                          valores discriminados.
                         </p>
                       </div>
                     </AccordionContent>
@@ -113,11 +102,6 @@ export default function Direitos() {
                           Para quem já concluiu o ensino fundamental, a jornada pode ser de até 8 horas diárias, desde
                           que sejam computadas as horas de atividades teóricas.
                         </p>
-                        <p>
-                          É proibido o trabalho em horário noturno (das 22h às 5h), em locais insalubres, perigosos ou
-                          penosos, bem como em atividades prejudiciais ao desenvolvimento físico, psíquico, moral e
-                          social do jovem.
-                        </p>
                       </div>
                     </AccordionContent>
                   </AccordionItem>
@@ -133,10 +117,6 @@ export default function Direitos() {
                           As férias são remuneradas com acréscimo de 1/3 sobre o salário normal, conforme determina a
                           Constituição Federal.
                         </p>
-                        <p>
-                          O período aquisitivo é de 12 meses, ou seja, o aprendiz tem direito a férias após completar um
-                          ano de contrato.
-                        </p>
                       </div>
                     </AccordionContent>
                   </AccordionItem>
@@ -147,13 +127,6 @@ export default function Direitos() {
                         <p>
                           O aprendiz tem direito ao 13º salário, que deve ser pago em duas parcelas: a primeira até 30
                           de novembro e a segunda até 20 de dezembro.
-                        </p>
-                        <p>
-                          O valor é calculado com base na remuneração integral ou no valor da aposentadoria do mês de
-                          dezembro.
-                        </p>
-                        <p>
-                          Em caso de rescisão do contrato, o 13º salário é pago proporcionalmente aos meses trabalhados.
                         </p>
                       </div>
                     </AccordionContent>
@@ -166,54 +139,6 @@ export default function Direitos() {
                           O aprendiz tem direito ao Fundo de Garantia do Tempo de Serviço (FGTS), com alíquota de 2% da
                           remuneração (diferente dos 8% dos contratos de trabalho regulares).
                         </p>
-                        <p>
-                          O FGTS é depositado mensalmente pela empresa em conta vinculada na Caixa Econômica Federal em
-                          nome do aprendiz.
-                        </p>
-                        <p>
-                          Em caso de dispensa sem justa causa, o aprendiz pode sacar o FGTS, acrescido da multa de 40%
-                          sobre o valor depositado.
-                        </p>
-                      </div>
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-6">
-                    <AccordionTrigger>Vale-Transporte</AccordionTrigger>
-                    <AccordionContent>
-                      <div className="space-y-2">
-                        <p>
-                          O aprendiz tem direito ao vale-transporte para o deslocamento residência-trabalho e
-                          trabalho-residência, bem como para o deslocamento residência-instituição formadora e
-                          instituição formadora-residência.
-                        </p>
-                        <p>O desconto máximo permitido é de 6% do salário, conforme a legislação trabalhista.</p>
-                      </div>
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-7">
-                    <AccordionTrigger>Seguro-Desemprego</AccordionTrigger>
-                    <AccordionContent>
-                      <div className="space-y-2">
-                        <p>
-                          Em caso de dispensa involuntária (sem justa causa), o aprendiz tem direito ao
-                          seguro-desemprego, desde que atenda aos requisitos legais.
-                        </p>
-                        <p>
-                          O benefício é pago em parcelas mensais, cujo valor é calculado com base na média dos salários
-                          dos últimos três meses anteriores à dispensa.
-                        </p>
-                      </div>
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-8">
-                    <AccordionTrigger>Benefícios Previdenciários</AccordionTrigger>
-                    <AccordionContent>
-                      <div className="space-y-2">
-                        <p>
-                          O aprendiz é segurado obrigatório da Previdência Social, tendo direito a todos os benefícios
-                          previdenciários, como auxílio-doença, salário-maternidade, entre outros.
-                        </p>
-                        <p>O tempo de contrato de aprendizagem é computado para fins de aposentadoria.</p>
                       </div>
                     </AccordionContent>
                   </AccordionItem>
@@ -223,7 +148,7 @@ export default function Direitos() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold flex items-center gap-2">
                   <AlertTriangle className="h-6 w-6 text-primary" />
-                  Deveres do Menor Aprendiz
+                  Deveres do Jovem Aprendiz
                 </h2>
                 <p className="text-muted-foreground">
                   Além dos direitos, o aprendiz também possui deveres que devem ser cumpridos durante o programa.
@@ -243,7 +168,6 @@ export default function Direitos() {
                       A empresa e a instituição formadora podem solicitar periodicamente comprovantes de frequência e
                       boletins escolares.
                     </p>
-                    <p>O baixo rendimento escolar pode ser motivo para rescisão do contrato de aprendizagem.</p>
                   </CardContent>
                 </Card>
 
@@ -257,7 +181,6 @@ export default function Direitos() {
                       cronograma estabelecido.
                     </p>
                     <p>As faltas devem ser justificadas e, quando possível, comunicadas com antecedência.</p>
-                    <p>A frequência mínima exigida é de 75% das aulas teóricas.</p>
                   </CardContent>
                 </Card>
 
@@ -271,44 +194,6 @@ export default function Direitos() {
                       entrada e saída.
                     </p>
                     <p>Eventuais atrasos ou faltas devem ser comunicados e justificados ao supervisor imediato.</p>
-                    <p>O registro de ponto, quando exigido, deve ser feito corretamente.</p>
-                  </CardContent>
-                </Card>
-
-                <Card className="mb-4">
-                  <CardHeader>
-                    <CardTitle>Execução das Tarefas</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-2">
-                    <p>
-                      O aprendiz deve executar com zelo e diligência as tarefas necessárias à sua formação profissional.
-                    </p>
-                    <p>
-                      É importante seguir as orientações do supervisor e buscar aprender o máximo possível durante o
-                      programa.
-                    </p>
-                    <p>
-                      O aprendiz deve participar ativamente das atividades propostas, demonstrando interesse e
-                      comprometimento.
-                    </p>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Comportamento e Conduta</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-2">
-                    <p>
-                      O aprendiz deve manter comportamento compatível com a condição de aprendiz, respeitando as normas
-                      da empresa e da instituição formadora.
-                    </p>
-                    <p>É fundamental respeitar colegas, supervisores e clientes, mantendo uma postura profissional.</p>
-                    <p>O uso de uniforme, quando fornecido, é obrigatório, bem como o crachá de identificação.</p>
-                    <p>
-                      O aprendiz deve zelar pelos equipamentos, materiais e instalações da empresa e da instituição
-                      formadora.
-                    </p>
                   </CardContent>
                 </Card>
               </div>
@@ -344,41 +229,14 @@ export default function Direitos() {
                       </p>
                     </CardContent>
                   </Card>
-                  <Card>
-                    <CardHeader>
-                      <CardTitle className="flex items-center gap-2">
-                        <FileText className="h-5 w-5 text-primary" />
-                        CLT - Arts. 428 a 433
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">
-                        Artigos da Consolidação das Leis do Trabalho que tratam especificamente do contrato de
-                        aprendizagem.
-                      </p>
-                    </CardContent>
-                  </Card>
-                  <Card>
-                    <CardHeader>
-                      <CardTitle className="flex items-center gap-2">
-                        <FileText className="h-5 w-5 text-primary" />
-                        Portaria MTE nº 723/2012
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">
-                        Estabelece normas sobre a organização e execução dos programas de aprendizagem profissional.
-                      </p>
-                    </CardContent>
-                  </Card>
                 </div>
               </div>
 
               <div className="flex justify-center pt-8">
-                <Link href="/como-participar">
+                <Link href="/">
                   <Button size="lg" className="gap-2">
                     <GraduationCap className="h-5 w-5" />
-                    Saiba como participar
+                    Voltar para a página inicial
                   </Button>
                 </Link>
               </div>
@@ -391,7 +249,7 @@ export default function Direitos() {
           <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
             <GraduationCap className="h-6 w-6" />
             <p className="text-center text-sm leading-loose md:text-left">
-              &copy; {new Date().getFullYear()} Programa Menor Aprendiz. Todos os direitos reservados.
+              &copy; {new Date().getFullYear()} Star Jovem. Todos os direitos reservados.
             </p>
           </div>
           <div className="flex gap-4">

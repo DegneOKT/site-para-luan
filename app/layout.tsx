@@ -3,9 +3,9 @@ import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata = {
-  title: "Programa Menor Aprendiz",
+  title: "Star Jovem",
   description:
-    "Informações importantes sobre o programa Menor Aprendiz para jovens que desejam ingressar no mercado de trabalho.",
+    "Informações importantes sobre o programa Star Jovem para jovens que desejam ingressar no mercado de trabalho.",
     generator: 'v0.dev'
 }
 
