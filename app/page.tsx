@@ -157,68 +157,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Seção de instituições */}
-        <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Instituições Parceiras</h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Conheça as principais instituições que oferecem programas de aprendizagem.
-                </p>
-              </div>
-            </div>
-
-            <div className="mx-auto max-w-5xl py-12">
-              <div className="grid gap-8 md:grid-cols-3">
-                <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
-                  <div className="w-32 h-32 mb-4 overflow-hidden">
-                    <Image
-                      src="https://www.sp.senac.br/o/senac-theme/images/logo-senac.png"
-                      alt="Logo SENAC"
-                      width={128}
-                      height={128}
-                      className="object-contain"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">SENAC</h3>
-                  <p className="text-center text-muted-foreground">Serviço Nacional de Aprendizagem Comercial</p>
-                </div>
-
-                <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
-                  <div className="w-32 h-32 mb-4 overflow-hidden">
-                    <Image
-                      src="https://www.portaldaindustria.com.br/canais/industria-de-a-a-z/static/images/senai-logo.png"
-                      alt="Logo SENAI"
-                      width={128}
-                      height={128}
-                      className="object-contain"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">SENAI</h3>
-                  <p className="text-center text-muted-foreground">Serviço Nacional de Aprendizagem Industrial</p>
-                </div>
-
-                <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
-                  <div className="w-32 h-32 mb-4 overflow-hidden">
-                    <Image
-                      src="https://www.ciee.org.br/portal/img/logo-ciee.png"
-                      alt="Logo CIEE"
-                      width={128}
-                      height={128}
-                      className="object-contain"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">CIEE</h3>
-                  <p className="text-center text-muted-foreground">Centro de Integração Empresa-Escola</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Seção de entrevista */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
