@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { GraduationCap, Video, CheckCircle2 } from "lucide-react"
+import { GraduationCap, Video, CheckCircle2, Info } from "lucide-react"
 
 export default function Home() {
   return (
@@ -48,11 +48,11 @@ export default function Home() {
               </div>
               <div className="mx-auto w-full max-w-[500px]">
                 <Image
-                  src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=1000&auto=format&fit=crop"
-                  alt="Jovens aprendizes em ambiente de trabalho"
+                  src="/images/jovens-aprendizes-carteira.png"
+                  alt="Jovens aprendizes mostrando suas carteiras de trabalho"
                   width={500}
                   height={500}
-                  className="rounded-xl object-cover w-full aspect-square"
+                  className="rounded-xl object-cover w-full aspect-video"
                   priority
                 />
               </div>
@@ -73,7 +73,7 @@ export default function Home() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1000&auto=format&fit=crop"
+                src="/images/menor-aprendiz-trabalho.png"
                 alt="Jovem aprendiz em treinamento"
                 width={500}
                 height={400}
@@ -164,7 +164,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Entrevista com Ex-Aprendiz</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Conheça a história de João, que participou do programa e compartilha sua experiência.
+                  Conheça a história de Anderson, que participou do programa e compartilha sua experiência.
                 </p>
               </div>
             </div>
@@ -182,8 +182,8 @@ export default function Home() {
                       </Link>
                     </div>
                     <Image
-                      src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=1000&auto=format&fit=crop"
-                      alt="Entrevista com ex-aprendiz"
+                      src="/images/anderson-santos.png"
+                      alt="Entrevista com ex-aprendiz Anderson Santos"
                       width={640}
                       height={360}
                       className="h-full w-full object-cover"
@@ -194,8 +194,9 @@ export default function Home() {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold">Depoimento Inspirador</h3>
                   <p className="text-muted-foreground">
-                    João compartilha como o programa transformou sua vida e abriu portas para sua carreira profissional.
-                    Ele trabalhou como aprendiz na área administrativa e hoje está efetivado na mesma empresa.
+                    Anderson compartilha como o programa transformou sua vida e abriu portas para sua carreira
+                    profissional. Ele trabalhou como aprendiz na área administrativa e hoje está efetivado na mesma
+                    empresa.
                   </p>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
@@ -232,6 +233,10 @@ export default function Home() {
             </Link>
             <Link href="#" className="text-sm underline underline-offset-4">
               Política de Privacidade
+            </Link>
+            <Link href="#" className="text-sm underline underline-offset-4 flex items-center gap-1">
+              <Info className="h-4 w-4" />
+              Referências
             </Link>
           </div>
         </div>

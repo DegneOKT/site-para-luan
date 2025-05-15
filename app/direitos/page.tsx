@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { ArrowLeft, FileText, GraduationCap, ShieldCheck, AlertTriangle } from "lucide-react"
+import { ArrowLeft, FileText, GraduationCap, ShieldCheck, AlertTriangle, Info } from "lucide-react"
 
 export default function Direitos() {
   return (
@@ -230,6 +230,28 @@ export default function Direitos() {
                     </CardContent>
                   </Card>
                 </div>
+              </div>
+
+              <div className="rounded-lg border bg-card p-6 mt-8">
+                <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                  <Info className="h-5 w-5 text-primary" />
+                  Referências
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <strong>Lei do Aprendiz:</strong> Lei 10.097/2000 - Altera dispositivos da CLT (Consolidação das
+                    Leis do Trabalho)
+                  </li>
+                  <li>
+                    <strong>Decreto:</strong> Decreto nº 5.598/2005 - Regulamenta a contratação de aprendizes
+                  </li>
+                  <li>
+                    <strong>Fonte das informações:</strong> Ministério do Trabalho e Emprego e pesquisas no Google
+                  </li>
+                  <li>
+                    <strong>Última atualização:</strong> Maio de 2025
+                  </li>
+                </ul>
               </div>
 
               <div className="flex justify-center pt-8">

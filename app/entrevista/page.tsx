@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
-import { ArrowLeft, GraduationCap, User, Calendar } from "lucide-react"
+import { ArrowLeft, GraduationCap, User, Calendar, Info } from "lucide-react"
 
 export default function Entrevista() {
   return (
@@ -46,7 +46,7 @@ export default function Entrevista() {
                 <div className="flex justify-center items-center gap-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-1">
                     <User className="h-4 w-4" />
-                    <span>Entrevistado: João Silva</span>
+                    <span>Entrevistado: Anderson Santos</span>
                   </div>
                   <div className="flex items-center gap-1">
                     <Calendar className="h-4 w-4" />
@@ -57,8 +57,8 @@ export default function Entrevista() {
 
               <div className="aspect-video w-full overflow-hidden rounded-xl bg-muted mb-8">
                 <Image
-                  src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=1000&auto=format&fit=crop"
-                  alt="João durante a entrevista"
+                  src="/images/anderson-santos.png"
+                  alt="Anderson Santos, ex-aprendiz do programa"
                   width={900}
                   height={500}
                   className="h-full w-full object-cover"
@@ -69,8 +69,8 @@ export default function Entrevista() {
                 <Card>
                   <CardContent className="p-6">
                     <p className="italic text-muted-foreground mb-4">
-                      João Silva, 19 anos, participou do programa Star Jovem na empresa ABC Tecnologia durante 2 anos.
-                      Hoje, ele está efetivado como assistente administrativo na mesma empresa e compartilha sua
+                      Anderson Santos, 19 anos, participou do programa Star Jovem na empresa ABC Tecnologia durante 2
+                      anos. Hoje, ele está efetivado como assistente administrativo na mesma empresa e compartilha sua
                       experiência nesta entrevista exclusiva.
                     </p>
 
@@ -78,19 +78,17 @@ export default function Entrevista() {
                       <div className="space-y-2">
                         <h3 className="font-bold text-primary">Luan:</h3>
                         <p>
-                          Olá, João! Obrigado por participar desta entrevista. Para começar, conte-nos como você
+                          Olá, Anderson! Obrigado por participar desta entrevista. Para começar, conte-nos como você
                           conheceu o programa Star Jovem e o que te motivou a participar.
                         </p>
                       </div>
 
                       <div className="space-y-2">
-                        <h3 className="font-bold">João:</h3>
+                        <h3 className="font-bold">Anderson:</h3>
                         <p>
                           Olá, Luan! Eu conheci o programa através da minha escola. Uma representante do CIEE foi até lá
-                          e apresentou as oportunidades. Na época, eu estava no segundo ano do ensino médio e queria
-                          muito começar a trabalhar, mas não tinha experiência nenhuma. O programa pareceu perfeito
-                          porque oferecia formação e a chance de entrar no mercado de trabalho com todos os direitos
-                          garantidos.
+                          e apresentou as oportunidades. Na época, eu estava no terceiro ano do ensino médio e queria
+                          muito começar a trabalhar, mas não tinha experiência nenhuma.
                         </p>
                       </div>
 
@@ -100,13 +98,11 @@ export default function Entrevista() {
                       </div>
 
                       <div className="space-y-2">
-                        <h3 className="font-bold">João:</h3>
+                        <h3 className="font-bold">Anderson:</h3>
                         <p>
                           O processo teve várias etapas. Primeiro, fiz uma prova de conhecimentos gerais, depois
-                          participei de uma dinâmica de grupo e, por fim, tive uma entrevista individual. Me preparei
-                          estudando um pouco sobre a empresa e praticando possíveis perguntas da entrevista com meus
-                          pais. Acho que o que me ajudou muito foi demonstrar interesse genuíno em aprender e crescer
-                          profissionalmente.
+                          participei de uma dinâmica de grupo, tive uma entrevista individual. Me preparei estudando um
+                          pouco sobre a empresa e praticando possíveis perguntas da entrevista com meus pais.
                         </p>
                       </div>
 
@@ -116,11 +112,11 @@ export default function Entrevista() {
                       </div>
 
                       <div className="space-y-2">
-                        <h3 className="font-bold">João:</h3>
+                        <h3 className="font-bold">Anderson:</h3>
                         <p>
-                          O maior desafio foi conciliar o trabalho com os estudos. No início, foi difícil administrar o
-                          tempo, mas com organização e planejamento, consegui me adaptar. Outro desafio foi superar a
-                          timidez, já que precisava interagir com muitas pessoas no ambiente de trabalho.
+                          Conciliar trabalho e estudo foi um desafio. No começo, apanhei pra organizar meu tempo, mas
+                          com um pouco de planejamento, fui me ajustando. Outro desafio foi lidar com a timidez, porque
+                          eu tinha que falar com muita gente no trabalho e isso não era fácil pra mim.
                         </p>
                       </div>
 
@@ -133,11 +129,11 @@ export default function Entrevista() {
                       </div>
 
                       <div className="space-y-2">
-                        <h3 className="font-bold">João:</h3>
+                        <h3 className="font-bold">Anderson:</h3>
                         <p>
-                          Desenvolvi muitas habilidades técnicas, como usar sistemas administrativos, elaborar planilhas
-                          e redigir documentos. Mas as habilidades comportamentais foram as mais valiosas: aprendi a me
-                          comunicar melhor, a trabalhar em equipe, a gerenciar meu tempo e a resolver problemas.
+                          Desenvolvi muitas habilidades técnicas, como elaborar planilhas e documentos. Mas as
+                          habilidades de desempenho foram as mais valiosas: aprendi a me comunicar melhor, a trabalhar
+                          em equipe, a gerenciar meu tempo e a resolver problemas.
                         </p>
                       </div>
 
@@ -150,12 +146,10 @@ export default function Entrevista() {
                       </div>
 
                       <div className="space-y-2">
-                        <h3 className="font-bold">João:</h3>
+                        <h3 className="font-bold">Anderson:</h3>
                         <p>
                           Eu diria para aproveitarem ao máximo essa oportunidade! É uma chance única de entrar no
-                          mercado de trabalho com apoio e aprendizado. Alguns conselhos específicos: sejam pontuais e
-                          responsáveis; não tenham medo de fazer perguntas quando não entenderem algo; busquem aprender
-                          com todos na empresa; e mantenham boas notas na escola.
+                          mercado de trabalho com apoio e aprendizado.
                         </p>
                       </div>
                     </div>
@@ -174,12 +168,31 @@ export default function Entrevista() {
                       profissional.
                     </li>
                     <li>
-                      <strong>Habilidades desenvolvidas:</strong> Técnicas (sistemas administrativos, planilhas) e
+                      <strong>Habilidades desenvolvidas:</strong> Técnicas (elaboração de planilhas e documentos) e
                       comportamentais (comunicação, trabalho em equipe, gestão de tempo).
                     </li>
                     <li>
-                      <strong>Conselhos para novos aprendizes:</strong> Pontualidade, responsabilidade, curiosidade para
-                      aprender e manter bom desempenho escolar.
+                      <strong>Conselhos para novos aprendizes:</strong> Aproveitar ao máximo a oportunidade de entrar no
+                      mercado de trabalho com apoio.
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="rounded-lg border bg-card p-6 mt-8">
+                  <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                    <Info className="h-5 w-5 text-primary" />
+                    Referências
+                  </h3>
+                  <ul className="space-y-3">
+                    <li>
+                      <strong>Entrevistador:</strong> Luan Oliveira, Coordenador do Programa Star Jovem
+                    </li>
+                    <li>
+                      <strong>Entrevistado:</strong> Anderson Santos, Ex-aprendiz e atual Assistente Administrativo na
+                      ABC Tecnologia
+                    </li>
+                    <li>
+                      <strong>Fonte das informações:</strong> Entrevista realizada em 15/04/2025 e pesquisas no Google
                     </li>
                   </ul>
                 </div>
